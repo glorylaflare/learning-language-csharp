@@ -1,0 +1,15 @@
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\AgendaContatos.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\AgendaContatos.AssemblyInfoInputs.cache
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\AgendaContatos.AssemblyInfo.cs
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\AgendaContatos.csproj.CoreCompileInputs.cache
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\AgendaContatos.sourcelink.json
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\bin\Debug\net9.0\AgendaContatos.exe
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\bin\Debug\net9.0\AgendaContatos.deps.json
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\bin\Debug\net9.0\AgendaContatos.runtimeconfig.json
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\bin\Debug\net9.0\AgendaContatos.dll
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\bin\Debug\net9.0\AgendaContatos.pdb
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\AgendaContatos.dll
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\refint\AgendaContatos.dll
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\AgendaContatos.pdb
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\AgendaContatos.genruntimeconfig.cache
+E:\Programação\meus-projetos\csharp\AgendaContatos\AgendaContatos\obj\Debug\net9.0\ref\AgendaContatos.dll
