@@ -1,0 +1,15 @@
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\bin\Debug\net9.0\BancoBrasil.exe
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\bin\Debug\net9.0\BancoBrasil.deps.json
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\bin\Debug\net9.0\BancoBrasil.runtimeconfig.json
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\bin\Debug\net9.0\BancoBrasil.dll
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\bin\Debug\net9.0\BancoBrasil.pdb
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\BancoBrasil.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\BancoBrasil.AssemblyInfoInputs.cache
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\BancoBrasil.AssemblyInfo.cs
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\BancoBrasil.csproj.CoreCompileInputs.cache
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\BancoBrasil.sourcelink.json
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\BancoBrasil.dll
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\refint\BancoBrasil.dll
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\BancoBrasil.pdb
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\BancoBrasil.genruntimeconfig.cache
+E:\Programação\meus-projetos\csharp\BancoBrasil\BancoBrasil\obj\Debug\net9.0\ref\BancoBrasil.dll
