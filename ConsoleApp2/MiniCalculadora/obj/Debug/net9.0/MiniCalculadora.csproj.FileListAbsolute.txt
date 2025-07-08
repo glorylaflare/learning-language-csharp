@@ -1,0 +1,15 @@
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\bin\Debug\net9.0\MiniCalculadora.exe
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\bin\Debug\net9.0\MiniCalculadora.deps.json
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\bin\Debug\net9.0\MiniCalculadora.runtimeconfig.json
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\bin\Debug\net9.0\MiniCalculadora.dll
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\bin\Debug\net9.0\MiniCalculadora.pdb
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\MiniCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\MiniCalculadora.AssemblyInfoInputs.cache
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\MiniCalculadora.AssemblyInfo.cs
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\MiniCalculadora.csproj.CoreCompileInputs.cache
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\MiniCalculadora.sourcelink.json
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\MiniCalculadora.dll
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\refint\MiniCalculadora.dll
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\MiniCalculadora.pdb
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\MiniCalculadora.genruntimeconfig.cache
+E:\Programação\meus-projetos\csharp\ConsoleApp2\MiniCalculadora\obj\Debug\net9.0\ref\MiniCalculadora.dll
