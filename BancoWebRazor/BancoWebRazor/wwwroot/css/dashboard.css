@@ -1,0 +1,21 @@
+﻿.balance-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 15px;
+}
+.transaction-card {
+    border-left: 4px solid #007bff;
+    transition: all 0.3s ease;
+}
+.transaction-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,123,255,0.2);
+}
+.balance-hidden {
+    filter: blur(8px);
+    user-select: none;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+}

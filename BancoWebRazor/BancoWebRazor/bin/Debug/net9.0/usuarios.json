@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1414120181,
+    "nome": "Izabella Freitas",
+    "email": "izaf@email.com",
+    "cpf": "123.123.123-12",
+    "senha": "12345",
+    "numeroConta": "693211",
+    "agencia": 803,
+    "saldo": 1277.13,
+    "dataCriacaoConta": "2025-07-06T20:55:23.7591312-03:00"
+  },
+  {
+    "id": 533928346,
+    "nome": "Marcelo Oliveira",
+    "email": "marcelo@email.com",
+    "cpf": "831.231.723-81",
+    "senha": "meugato",
+    "numeroConta": "744844",
+    "agencia": 803,
+    "saldo": 3454.01,
+    "dataCriacaoConta": "2025-07-06T21:04:28.8039551-03:00"
+  }
+]
