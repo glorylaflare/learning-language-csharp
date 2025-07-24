@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BancoWebRazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+643db20647ebdd4e918191977b46e33c1754d903")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4067db86a2f9990e8a66934fadc341fb4ae0d2ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("BancoWebRazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BancoWebRazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
