@@ -1,0 +1,33 @@
+﻿@model LearnEntity.Models.Grade
+
+@{
+    ViewData["Title"] = "Criar Grade";
+}
+
+<h1>Criar Nova Grade</h1>
+
+<h4>Grade</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="GradeName" class="control-label"></label>
+                <input asp-for="GradeName" class="form-control" />
+                <span asp-validation-for="GradeName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Section" class="control-label"></label>
+                <input asp-for="Section" class="form-control" />
+                <span asp-validation-for="Section" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
