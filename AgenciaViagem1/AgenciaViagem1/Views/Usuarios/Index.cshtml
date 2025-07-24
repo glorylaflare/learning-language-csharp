@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Usuario>
+
+@{
+    ViewBag.Title = "Usuários";
+    Layout = "_Layout";
+}
+
+<h2>Usuários</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>CPF</th>
+            <th>Passaporte</th>
+            <th>Telefone</th>
+            <th>Tipo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.Id</td>
+                <td>@usuario.Nome</td>
+                <td>@usuario.Email</td>
+                <td>@usuario.Cpf</td>
+                <td>@usuario.Passaporte</td>
+                <td>@usuario.Telefone</td>
+                <td>@usuario.Tipo</td>
+            </tr>
+        }
+    </tbody>
+</table>

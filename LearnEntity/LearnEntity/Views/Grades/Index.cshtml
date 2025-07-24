@@ -1,0 +1,35 @@
+﻿@model IEnumerable<LearnEntity.Models.Grade>
+
+@{
+    ViewData["Title"] = "Grades";
+}
+
+<h1>Grades</h1>
+
+<p>
+    <a asp-action="Create">Criar Nova Grade</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>GradeId</th>
+            <th>GradeName</th>
+            <th>Section</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.GradeId</td>
+            <td>@item.GradeName</td>
+            <td>@item.Section</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.GradeId">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.GradeId">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.GradeId">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

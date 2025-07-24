@@ -1,0 +1,38 @@
+﻿@model IEnumerable<TesteAgencia.Models.User>
+@{
+    ViewData["Title"] = "Usuários";
+}
+<h1>Usuários</h1>
+<p>
+    <a asp-action="Create">Criar Novo Usuário</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>CPF</th>
+            <th>Passaporte</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Email</td>
+            <td>@item.Phone</td>
+            <td>@item.Cpf</td>
+            <td>@item.Passport</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.UserId">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.UserId">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.UserId">Excluir</a> |
+                <a asp-action="ChangePassword" asp-route-id="@item.UserId">Alterar Senha</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+

@@ -1,0 +1,19 @@
+﻿info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT u."UserId", u."Cpf", u."CreatedAt", u."DisabledAt", u."Email", u."Name", u."Passport", u."Password", u."Phone", u."Roles", u."UpdatedAt"
+      FROM "Users" AS u
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT u."UserId", u."Cpf", u."CreatedAt", u."DisabledAt", u."Email", u."Name", u."Passport", u."Password", u."Phone", u."Roles", u."UpdatedAt"
+      FROM "Users" AS u
+      WHERE u."UserId" = @__p_0
+      LIMIT 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@p10='?' (DbType = Int32), @p0='?', @p1='?' (DbType = DateTime), @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']
+      UPDATE "Users" SET "Cpf" = @p0, "CreatedAt" = @p1, "DisabledAt" = @p2, "Email" = @p3, "Name" = @p4, "Passport" = @p5, "Password" = @p6, "Phone" = @p7, "Roles" = @p8, "UpdatedAt" = @p9
+      WHERE "UserId" = @p10;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT u."UserId", u."Cpf", u."CreatedAt", u."DisabledAt", u."Email", u."Name", u."Passport", u."Password", u."Phone", u."Roles", u."UpdatedAt" 
+      FROM "Users" AS u
+

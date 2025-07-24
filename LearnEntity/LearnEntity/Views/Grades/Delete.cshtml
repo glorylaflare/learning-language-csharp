@@ -1,0 +1,25 @@
+﻿@model LearnEntity.Models.Grade
+
+@{
+    ViewData["Title"] = "Excluir Grade";
+}
+
+<h1>Excluir Grade</h1>
+
+<h4>Você tem certeza que deseja excluir esta grade?</h4>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">GradeId</dt>
+        <dd class = "col-sm-10">@Model.GradeId</dd>
+        <dt class = "col-sm-2">GradeName</dt>
+        <dd class = "col-sm-10">@Model.GradeName</dd>
+        <dt class = "col-sm-2">Section</dt>
+        <dd class = "col-sm-10">@Model.Section</dd>
+    </dl>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="GradeId" />
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

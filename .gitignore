@@ -1,0 +1,52 @@
+# Ignore build results
+bin/
+obj/
+out/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Ignore test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Ignore publish output
+publish/
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore Rider IDE files
+.idea/
+*.sln.iml
+
+# Ignore ASP.NET files
+App_Data/
+*.db
+
+# Ignore Entity Framework files
+migrations/
+
+# Ignore ReSharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore Mac OS files
+.DS_Store
+
+# Ignore Windows thumbnail cache
+Thumbs.db
