@@ -1,0 +1,28 @@
+﻿@model TesteAgencia.Models.User
+@{
+    ViewData["Title"] = "Excluir Usuário";
+}
+<h1>Excluir Usuário</h1>
+<h4>Você tem certeza que deseja excluir este usuário?</h4>
+<div>
+    <h4>Usuário</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">Nome</dt>
+        <dd class = "col-sm-10">@Model.Name</dd>
+        <dt class = "col-sm-2">Email</dt>
+        <dd class = "col-sm-10">@Model.Email</dd>
+        <dt class = "col-sm-2">Telefone</dt>
+        <dd class = "col-sm-10">@Model.Phone</dd>
+        <dt class = "col-sm-2">CPF</dt>
+        <dd class = "col-sm-10">@Model.Cpf</dd>
+        <dt class = "col-sm-2">Passaporte</dt>
+        <dd class = "col-sm-10">@Model.Passport</dd>
+    </dl>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="UserId" />
+        <input type="submit" value="Excluir" class="btn btn-danger" /> |
+        <a asp-action="Index">Cancelar</a>
+    </form>
+</div>
+

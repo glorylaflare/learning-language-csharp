@@ -1,0 +1,10 @@
+﻿info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT u."UserId", u."Cpf", u."CreatedAt", u."DisabledAt", u."Email", u."Name", u."Passport", u."Password", u."Phone", u."Roles", u."UpdatedAt" 
+      FROM "Users" AS u
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT u."UserId", u."Cpf", u."CreatedAt", u."DisabledAt", u."Email", u."Name", u."Passport", u."Password", u."Phone", u."Roles", u."UpdatedAt" 
+      FROM "Users" AS u
+      WHERE u."UserId" = @__p_0
+      LIMIT 1
