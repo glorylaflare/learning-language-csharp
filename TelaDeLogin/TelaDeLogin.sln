@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelaDeLogin", "TelaDeLogin\TelaDeLogin.csproj", "{8160BE9C-9F8C-4591-8511-9B7FB3927437}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8160BE9C-9F8C-4591-8511-9B7FB3927437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8160BE9C-9F8C-4591-8511-9B7FB3927437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8160BE9C-9F8C-4591-8511-9B7FB3927437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8160BE9C-9F8C-4591-8511-9B7FB3927437}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
