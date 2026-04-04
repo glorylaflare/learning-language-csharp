@@ -50,3 +50,6 @@ _ReSharper*/
 
 # Ignore Windows thumbnail cache
 Thumbs.db
+
+# Ignore scripts
+*.ps1
