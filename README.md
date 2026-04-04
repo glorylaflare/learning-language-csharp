@@ -22,8 +22,5 @@ Projetos mais recentes, incorporando conceitos avançados e melhores práticas.
 
 WIP...
 
-## Como Usar
-Cada projeto é independente e pode ser executado individualmente. Certifique-se de ter o .NET SDK instalado. Navegue até a pasta do projeto e execute `dotnet run`.
-
 ## Contribuições
 Este é um repositório pessoal para aprendizado, mas sugestões são bem-vindas!
