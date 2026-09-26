@@ -1,4 +1,5 @@
 ﻿using Linq.Training.Con.App.Data;
+using System.Globalization;
 
 namespace Linq.Training.Con.App.Desafios;
 
@@ -28,7 +29,10 @@ public static class Nivel01Basico
         Console.WriteLine("\n[1] Clientes ativos:");
         // TODO: use Where + ToList
         // var ativos = ...
-        var result = Database.Clientes.Where(c => c.Ativo).ToList();
+        var result = Database.Clientes
+            .Where(c => c.Ativo)
+            .ToList();
+
         foreach (var item in result)
             Console.WriteLine(item);
     }
@@ -38,7 +42,9 @@ public static class Nivel01Basico
     {
         Console.WriteLine("\n[2] Nomes dos clientes:");
         // TODO: use Select
-        var result = Database.Clientes.Select(c => c.Nome).ToList();
+        var result = Database.Clientes
+            .Select(c => c.Nome);
+
         foreach (var item in result)
             Console.WriteLine(item);
     }
@@ -48,7 +54,10 @@ public static class Nivel01Basico
     {
         Console.WriteLine("\n[3] Produtos > R$500 (desc):");
         // TODO: Where + OrderByDescending
-        var result = Database.Produtos.Where(p => p.Preco > 500).OrderByDescending(p => p.Preco).ToList();
+        var result = Database.Produtos
+            .Where(p => p.Preco > 500)
+            .OrderByDescending(p => p.Preco);
+
         foreach (var item in result)
             Console.WriteLine(item);
     }
@@ -58,7 +67,9 @@ public static class Nivel01Basico
     {
         Console.WriteLine("\n[4] Primeiro cliente de SP:");
         // TODO: FirstOrDefault
-        var result = Database.Clientes.FirstOrDefault(c => c.Estado == "SP");
+        var result = Database.Clientes
+            .FirstOrDefault(c => c.Estado == "SP");
+
         Console.WriteLine(result);
     }
 
@@ -67,7 +78,9 @@ public static class Nivel01Basico
     {
         Console.WriteLine("\n[5] Existe produto sem estoque?");
         // TODO: Any
-        var result = Database.Produtos.Any(p => p.Estoque == 0);
+        var result = Database.Produtos
+            .Any(p => p.Estoque == 0);
+
         Console.WriteLine(result);
     }
 
@@ -76,16 +89,20 @@ public static class Nivel01Basico
     {
         Console.WriteLine("\n[6] Quantidade de clientes de SP:");
         // TODO: Count com predicado
-        var result = Database.Clientes.Count(c => c.Estado == "SP");
+        var result = Database.Clientes
+            .Count(c => c.Estado == "SP");
+
         Console.WriteLine(result);
     }
 
-    // 7. Some o valor total de todos os produtos em estoque (preço × estoque).
+    // 7. Some o valor total de todos os produtos em estoque (preço × es1toque).
     private static void Desafio07()
     {
         Console.WriteLine("\n[7] Valor total do estoque:");
         // TODO: Sum com seletor
-        var result = Database.Produtos.Sum(p => (p.Preco * p.Estoque));
-        Console.WriteLine(result);
+        var result = Database.Produtos
+            .Sum(p => (p.Preco * p.Estoque));
+
+        Console.WriteLine(string.Format(CultureInfo.GetCultureInfo("pt-BR"), "{0:C}", result));
     }
 }
